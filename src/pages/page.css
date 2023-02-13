@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: #899ee4;
+    height: 200%;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 10px;
+    font-size: 20px;
+   
+}
+@media screen and (max-width:1170px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+.none-list {
+    list-style-type: none;
+}
+
+.none {
+    text-decoration: none;
+    color: black;
+}
+
+.liststyle {
+    padding-top: 30px;
+}
+
+a.none:hover {
+    color: aliceblue;
+}
+
+.CreateEmployee {
+    background-color: aliceblue;
+    padding: 50px 35px;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.row-space {
+    justify-content: space-between;
+}
+
+.label {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 3px;
+}
+
+.inputstyle {
+    line-height: 40px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border-color: #fafafa;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.4s ease;
+}
+
+.inputstyles {
+    background-color: #fafafa;
+    border-radius: 5px;
+    border-color: #fafafa;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.4s ease;
+}
+
+.btn {
+    width: 100%;
+
+}
+
+.dropdown-toggle {
+    padding-left: 10px;
+}
+table{
+    border: 1px solid rgb(214, 214, 214);
+    height: 100vh;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    border: 1px solid rgb(219, 219, 219);
+    border-width: 1px;
+}
+.CreateSale {
+    background-color: aliceblue;
+    padding: 50px 35px;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    height: 100vh;
+}
